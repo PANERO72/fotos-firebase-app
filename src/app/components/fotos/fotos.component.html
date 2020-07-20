@@ -1,0 +1,12 @@
+<div class="card-columns">
+    <div class="card" *ngFor="let item of items | async">
+        <img class="card-img-top" [src]="item.url" alt="Imagen">
+        <div class="card-body">
+            <h4 class="card-title">{{ item.name }}</h4>
+            <!-- <p class="card-text">Text</p> -->
+        </div>
+        <!-- <div class="card-footer">
+            <button (click)='deleteFileUpload(fileUpload)' type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+        </div> -->
+    </div>  
+</div>

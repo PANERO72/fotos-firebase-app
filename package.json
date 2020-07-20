@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -15,10 +15,12 @@
     "@angular/common": "~10.0.2",
     "@angular/compiler": "~10.0.2",
     "@angular/core": "~10.0.2",
+    "@angular/fire": "^6.0.2",
     "@angular/forms": "~10.0.2",
     "@angular/platform-browser": "~10.0.2",
     "@angular/platform-browser-dynamic": "~10.0.2",
     "@angular/router": "~10.0.2",
+    "firebase": "^7.16.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
@@ -44,3 +46,41 @@
     "typescript": "~3.9.5"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
